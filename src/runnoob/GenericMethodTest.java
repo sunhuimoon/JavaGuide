@@ -2,10 +2,10 @@ package runnoob;
 
 public class GenericMethodTest {
     // 泛型方法 printArray
-    private static < E > void printArray(E[] inputArray)
+    private static < W > void printArray(W[] inputArray)
     {
         // 输出数组元素
-        for ( E element : inputArray ){
+        for ( W element : inputArray ){
             System.out.printf( "%s ", element );
         }
         System.out.println();
