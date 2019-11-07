@@ -1,3 +1,5 @@
+package JavaGuide;
+
 import java.util.Scanner;
 
 public class JavaGuide1 {
